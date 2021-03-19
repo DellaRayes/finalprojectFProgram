@@ -1,0 +1,90 @@
+/* for tablets */
+@media only screen and (max-width:768px ) {
+    .experience-intro {
+        padding-bottom: 400px;
+    }
+
+    h2 {
+        text-align: center !important;
+    }
+
+    .exp {
+        border-left: none !important;
+        padding-left: unset !important;
+    }
+
+    .edu {
+        padding-left: 0px !important;
+    }
+
+    header {
+        max-width: 768px;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: row;
+        border: 2px dotted brown;
+    }
+
+    .main-intro {
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+
+    .intro-text {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    br {
+        display: none;
+    }
+    
+}
+
+/* for smartphone */
+@media only screen and (max-width:425px) {
+    .intro {
+        border: 2px dotted brown;
+        float: none;
+        display: flex;
+        flex-direction: column !important; 
+    }
+
+    .intro-image {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .experience-intro {
+        padding-bottom: 450px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .edu {
+        padding-left: 0px !important;
+        padding-right: 0px;
+    }
+
+    .experience-intro h2 {
+        text-align: center;
+    }
+
+    /* .hobbies {
+        flex: none;
+    }
+
+    .other-intro {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+        flex: none;
+    }
+
+    .other-intro h2 {
+        border-top: none;
+    } */
+}
